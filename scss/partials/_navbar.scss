@@ -1,0 +1,143 @@
+
+$navElementMargin: 15px;
+$sidePadding: 30px;
+
+nav {
+		position: fixed;
+		z-index: 4;
+		top: 0;
+		right: 0;
+		left: 0;
+
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: $bodyTextColor; 
+
+		#CornerLogo {
+			padding: 20px 0px 16px 0px;
+			cursor: pointer;
+			text-align: center;
+
+			h1 {
+				margin: 0;
+				font-size: 24px;
+				font-weight: 600;
+				color: $bodyTextColor;
+				// text-transform: none;
+			}
+
+			.subtitle {
+				margin-top: 12px;
+				color: #ebeaeb;
+			}
+		}
+		ul {
+			list-style: none;
+			overflow: hidden;
+			margin: 0;
+			padding: 8px 0 8px 0;
+			display: inline-block;
+			width: 90%;
+			border-top: 1px solid #eee;
+
+
+			li {
+				display: inline-block;
+				color: $bodyTextColor;
+
+				a {
+					margin: 5px 20px 5px 20px;
+					display: block;
+					color: inherit;
+					transition: .3s;
+
+					&:hover {
+						color: slategray;
+					}
+				}
+				
+				&.active {
+					// color: $accentColor;//#FEA200;
+					// border-bottom: 4px solid #FEA200;
+				}
+			}
+		}
+
+		.container {
+			position: relative;
+			overflow: hidden; // establishes a block formatting context to the ul (makes its size not 0)
+			padding: 0 $sidePadding 0 $sidePadding;
+			max-width: $pageWidth; //- 2*$sidePadding;
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+	.navbar-fixed-top {
+		background-color: white;
+
+		-webkit-box-shadow: 0 6px 6px -6px #999;
+        -moz-box-shadow: 0 6px 6px -6px #999;
+        box-shadow: 0 6px 6px -6px #999;
+        
+        @include linear-transition(0.3s);
+	}
+	.nav-default {
+		background: transparent;
+		@include linear-transition(0.3s);
+		
+	}
+
+
+@include tablet {
+	nav {
+		position: fixed;
+		transition: top .2s ease-in-out;
+		font-size: 14px;
+
+		#CornerLogo {
+			float: left;
+			margin: 0;
+			padding: 24px 0px;
+			cursor: pointer;
+
+			h1 {
+			}
+
+			.subtitle {
+				margin-top: 12px;
+			}
+		}
+		ul {
+			float: right;
+			margin: 0;
+			width: inherit;
+			border: none;
+			padding: 0px;
+
+			li {
+				display: inline-block;
+
+				a {
+					margin: 0px 14px;
+					padding: 29px 0px;
+					display: block;
+				}				
+			}
+		}
+
+
+	}
+	nav:after {
+		// For under-bar shadow
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    bottom: -2px;
+	    right: 0;
+	    // border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	}
+	.nav-up {
+		top: -142;	
+	}
+}
