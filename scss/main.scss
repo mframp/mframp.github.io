@@ -1,0 +1,32 @@
+// Helpers
+@import "helpers/_variables";
+@import "helpers/_mixins";
+
+// Base stuff
+@import "base/_typography";
+@import "base/_layout";
+
+// Partials
+@import "partials/_navbar";
+@import "partials/_footer";
+
+
+// Pages
+@import "pages/_home";
+@import "pages/_project";
+
+
+
+a {
+	text-decoration: none;
+	color: $bodyTextColor;
+}
+
+.clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

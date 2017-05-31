@@ -1,0 +1,87 @@
+<svg width="860" height="481" viewBox="0 0 860 481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hills</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-875 -213)">
+<g id="hills">
+<g id="Rectangle 9">
+<use xlink:href="#path0_fill" transform="translate(875.628 213.941)" fill="#4696A3" fill-opacity="0.01"/>
+</g>
+<g id="spike_hills">
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(965.628 491.866)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(935.628 491.866)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(905.628 491.866)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(875.628 491.866)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1402.42 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1372.42 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1461.74 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1431.74 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1342.42 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1645.39 543.267)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1615.39 543.267)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1704.7 543.267)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1674.7 543.267)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1585.39 543.267)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1312.42 451.441)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1171.98 533.887)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1141.98 533.887)" fill="#2B8391"/>
+</g>
+<g id="Polygon">
+<use xlink:href="#path1_fill" transform="translate(1111.98 533.887)" fill="#2B8391"/>
+</g>
+<g id="Rectangle 8">
+<use xlink:href="#path2_fill" transform="translate(875.628 521.217)" fill="#2B8391"/>
+</g>
+<g id="Rectangle 8">
+<use xlink:href="#path3_fill" transform="translate(1111.98 563.479)" fill="#2B8391"/>
+</g>
+<g id="Rectangle 8">
+<use xlink:href="#path4_fill" transform="translate(1312.42 480.792)" fill="#2B8391"/>
+</g>
+<g id="Rectangle 8">
+<use xlink:href="#path5_fill" transform="translate(1584.7 572.667)" fill="#2B8391"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 859.076 0L 859.076 480L 0 480L 0 0Z"/>
+<path id="path1_fill" d="M 15 0L 27.9904 30.3186L 2.00962 30.3186L 15 0Z"/>
+<path id="path2_fill" d="M 0 0L 120 0L 120 172.724L 0 172.724L 0 0Z"/>
+<path id="path3_fill" d="M 0 0L 90 0L 90 130.462L 0 130.462L 0 0Z"/>
+<path id="path4_fill" d="M 0 0L 180 0L 180 213.149L 0 213.149L 0 0Z"/>
+<path id="path5_fill" d="M 0 0L 150 0L 150 121.275L 0 121.275L 0 0Z"/>
+</defs>
+</svg>

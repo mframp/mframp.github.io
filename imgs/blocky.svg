@@ -1,0 +1,28 @@
+<svg width="33" height="35" viewBox="0 0 33 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>blocky</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1372 -1039)">
+<g id="blocky">
+<g id="Rectangle 10">
+<use xlink:href="#path0_fill" transform="translate(1372.42 1041.5)" fill="#F2F2F2"/>
+</g>
+<g id="Rectangle 11">
+<use xlink:href="#path1_fill" transform="translate(1372.42 1039.42)" fill="#C4C4C4"/>
+</g>
+<g id="Rectangle 11">
+<use xlink:href="#path2_fill" transform="translate(1381.02 1040.52)" fill="#C4C4C4"/>
+</g>
+<g id="Rectangle 11">
+<use xlink:href="#path1_fill" transform="translate(1387.17 1039.97)" fill="#C4C4C4"/>
+</g>
+<g id="Rectangle 11">
+<use xlink:href="#path1_fill" transform="translate(1395.77 1041.5)" fill="#C4C4C4"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 32 0L 32 32L 0 32L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 8.59716 0L 8.59716 9.01314L 0 9.01314L 0 0Z"/>
+<path id="path2_fill" d="M 0 0L 6.15496 0L 6.15496 9.01314L 0 9.01314L 0 0Z"/>
+</defs>
+</svg>
