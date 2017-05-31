@@ -40,7 +40,7 @@ $(function () {
     // images dictionary
     this.imgs        = {
       'bg'            : 'imgs/bg.svg',
-      'sky'           : 'imgs/shapes_blank.svg',
+      'sky'           : 'imgs/shapes.png',
       'backdrop'      : 'imgs/hills.svg',
       'backdrop2'     : 'imgs/holder.png',
       'grass'         : 'imgs/line_trans.svg',
@@ -603,6 +603,8 @@ $(function () {
     }
   }
   document.onkeydown = function(e) {
+    document.getElementById('Arrow').style.display = 'none';
+
     var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
     if (KEY_CODES[keyCode]) {
       e.preventDefault();

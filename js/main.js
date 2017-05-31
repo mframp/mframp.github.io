@@ -93,7 +93,6 @@ $(document).ready(function() {
   // Bind to scroll
   $(window).scroll(function(){
      // Get container scroll position
-     console.log(topMenuHeight);
      var fromTop = $(this).scrollTop() + topMenuHeight;
      
      // Get id of current scroll item
