@@ -126,7 +126,7 @@ $(document).ready(function() {
     }
      
 // Projects page sub-nav
-    if (window.location.href.indexOf("index.html") <= -1 ) {
+    if (window.location.href.indexOf("index.html") <= -1 && window.location.href.indexOf("") <= -1 ) {
         if ($(window).scrollTop() > $('#SubNav').offset().top) {
           $('#SubNav').addClass('navbar-fixed-top');
         }
