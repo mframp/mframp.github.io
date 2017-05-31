@@ -56,7 +56,7 @@
 // Cache selectors
 $(document).ready(function() {
   var lastId,
-      topMenu = (window.location.href.indexOf("index.html") > -1) ? $("#NavBar") : $('#SubNav'),
+      topMenu = (window.location.href.indexOf("index.html") > -1 || window.location.href.indexOf("") > -1) ? $("#NavBar") : $('#SubNav'),
       topMenuHeight = topMenu.outerHeight(),
 
       // All list items
