@@ -1,0 +1,143 @@
+<html>
+<head>
+	<title> UX portfolio michael frampton</title>
+	<meta charset="UTF-8">
+	<!-- Line for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="scss/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Open+Sans:300,400,400i,600,700" rel="stylesheet">
+</head>
+
+<body>
+		<nav id="NavBar" class="nav-down">
+			<div class="container">
+				<div id="CornerLogo">
+					<h1>
+						<a href=""> Mike Frampton</a>
+					</h1>
+					<!-- <div class="subtitle"> UX Design + Development</div> -->
+					<!-- full stack designer? -->
+				</div>
+				
+				<ul id='NavMenu'>
+					<li>
+						<a href="#Projects"> Work</a>
+					</li>
+					<li>
+						<a href="#About"> About</a>
+					</li>
+					<li>
+						<a href="#trout"> Resume</a>
+					</li>
+				</ul>
+			</div>			
+		</nav>
+		<div class="landing-section">
+			<div class="wrap">
+				<div class="title"> Interaction Designer + Prototyper </div>
+				<p> *insert side scrolling game here</p>
+				<img src="images/guy.svg">
+			</div>
+		</div>
+		<div id="Projects" class="projects-section">
+			<div class="spacer-line">  </div>
+			<div class="projects-container">
+				<div class="project">
+					<a href="../v1/project.html">
+						<div class="project-content">
+							<div class="icon-container">
+								<img src="images/book_monster.svg">
+							</div>
+							<div class="title-container"> 
+								<div class="project-title title"> Good Aim </div>
+								<div class="project-subtitle content"> Mobile game concept to change behavior through gamification </div>
+								<div class="secondary-title title"> Role</div>
+								<div class="secondary-content content"> Ideation, game design, wireframing</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="project">
+					<div class="project-content">
+						<div class="icon-container">
+							<img src="images/aura_logo.jpg">
+						</div>
+						<div class="title-container"> 
+							<div class="project-title title"> Aura </div>
+							<div class="project-subtitle content"> Mixed reality museum experience that tells the story of museum artifacts in a way that hasn't been possible before</div>
+							<div class="secondary-title title"> Role</div>
+							<div class="secondary-content content"> Interaction design, acting :)</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="project">
+					<div class="project-content">
+						<div class="icon-container">
+							<img src="images/glove.svg">
+						</div>
+						<div class="title-container"> 
+							<div class="project-title title"> Berserker Glove </div>
+							<div class="project-subtitle content"> Prototype of a glove-shaped controller for intuitive gaming experiences </div>
+							<div class="secondary-title title"> Role</div>
+							<div class="secondary-content content"> Software development, circuitry, game design</div>
+						</div>
+					</div>
+				</div>
+				<div class="project" >
+					<div class="project-content">
+						<div class="icon-container">
+							<img src="images/code_cover@4x.png">
+						</div>
+						<div class="title-container"> 
+							<div class="project-title title"> Code Redesign </div>
+							<div class="project-subtitle content"> Publication design of one of my favorite books, Code: The Hidden Language of Computer Hardware and Software</div>
+							<div class="secondary-title title"> Role</div>
+							<div class="secondary-content content"> Typography, visual design, visual hierarchy </div>
+						</div>
+					</div>
+				</div>
+				<div class="project" >
+					<div class="title-container"> 
+						<div class="title"> Random </div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="About" class="about-section">
+			<div class="wrap">
+				<div class="profile-pic">
+					<img src="images/face.svg">
+				</div>
+
+				<div class="about-text clearfix">
+					<div class="about-title"> Thanks for checking out my work!</div>
+					<div class="about-description clearfix">
+						I am a designer who enjoys using an empathetic perspective to understand users and the problem space. I am happiest when I am involved and learning throughout the entirety of the design process and as a part of a design team. I relish the opportunity to help UX teams solve design problems through making and building prototypes. I currently am an Interaction Designer at Microsoft.
+
+						I am also a gamer, technologist, and diehard ray allen fan.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer-content">
+				<div class="footer-contacts">
+					<a href=""> PHONE </a>
+					<span class="vertical_bar"> | </span>
+					<a href=""> EMAIL </a>
+					<span class="vertical_bar"> | </span>
+					<a href=""> FACEBOOK </a>					
+				</div>
+				&copy 2017 Frampton's Functions
+			</div>	
+		</footer>
+	<!-- </div> -->
+</body>
+
+</html>
