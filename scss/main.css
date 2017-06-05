@@ -140,7 +140,7 @@ footer .vertical_bar {
 
 .landing-section {
   background-color: transparent;
-  height: 660px;
+  height: 605px;
   color: white;
   font-size: 32px;
   display: flex;
@@ -152,7 +152,7 @@ footer .vertical_bar {
     font-size: 32px;
     font-weight: 400;
     margin: 0 auto;
-    padding-top: 250px;
+    padding-top: 220px;
     line-height: 1.6; }
     .landing-section .title .bolder {
       font-weight: 700; }
@@ -177,8 +177,7 @@ footer .vertical_bar {
   background-color: white; }
   .projects-section .spacer-line {
     width: 10%;
-    margin: 0 auto;
-    margin-top: 40px; }
+    margin: 0 auto; }
 
 .projects-container {
   display: flex;
@@ -201,6 +200,15 @@ footer .vertical_bar {
     position: relative;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+    .projects-container .project.disabled {
+      box-shadow: none;
+      background-color: #f0f0f0; }
+      .projects-container .project.disabled:hover {
+        box-shadow: none; }
+      .projects-container .project.disabled:active {
+        background-color: #eee; }
+      .projects-container .project.disabled .project-content .title-container .project-title, .projects-container .project.disabled .project-content .title-container .project-subtitle {
+        color: silver; }
     .projects-container .project:hover {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.22); }
     .projects-container .project:active {
@@ -310,6 +318,8 @@ footer .vertical_bar {
       margin-left: auto;
       margin-right: auto;
       display: block; }
+    .about-section .profile-pic .circular {
+      border-radius: 50%; }
   .about-section div.about-text {
     width: 95%;
     height: auto;
@@ -338,13 +348,13 @@ footer .vertical_bar {
         height: 400px;
         display: inline; }
         .about-section .profile-pic img {
-          height: 250px;
+          height: 300px;
           margin: 0 auto;
           display: inline; }
       .about-section div.about-text {
-        padding: 100px 100px;
+        padding: 100px 50px 100px 70px;
         display: inline-block;
-        width: 70%;
+        width: 60%;
         text-align: left;
         height: 400px; }
         .about-section div.about-text .about-title {
@@ -361,7 +371,7 @@ footer .vertical_bar {
   width: 100%;
   height: 400px;
   position: absolute;
-  top: 40vh;
+  top: 30vh;
   z-index: -1; }
 
 canvas {
@@ -634,6 +644,8 @@ canvas {
       font-size: 16px;
       padding-bottom: 30px;
       font-family: 'Source Sans Pro', sans-serif; }
+      .project-page .section .two-third-col .description.inner {
+        padding-bottom: 10px; }
       .project-page .section .two-third-col .description .bolder {
         font-weight: 600; }
     .project-page .section .two-third-col .highlight {
@@ -651,6 +663,13 @@ canvas {
     padding: 12px 0px;
     border-top: 1px solid #e1e1e1;
     margin-right: 20px; }
+    .project-page .section .half-col.header {
+      padding: 0;
+      border-top: 0px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 12px; }
   .project-page .section .statement {
     min-height: 350px;
     padding: 40px 11%;
@@ -697,12 +716,18 @@ canvas {
 .project-page .footer-content {
   background-color: #eaeaea; }
 .project-page .video-container {
-  background-color: #eee; }
+  background-color: #eee;
+  text-align: center; }
 .project-page video {
   height: 500px;
   margin: 0 auto;
   padding: 60px 0px;
   display: block; }
+  .project-page video.glove {
+    height: 400px;
+    width: 45%;
+    padding-right: 2%;
+    display: inline-block; }
 
 .fullscreen {
   width: 100%;

@@ -28,7 +28,7 @@
 						<a href="index.html#About"> About</a>
 					</li>
 					<li>
-						<a href="/resume.html"> Resume</a>
+						<a href="frampton_resume_2017.pdf"> Resume</a>
 					</li>
 				</ul>
 			</div>			
@@ -45,8 +45,17 @@
 				</div>
 			</div>
 		</div>
-				<img class="full-width-img" src="images/shooting_screen.png">
-
+				<!-- <img class="full-width-img" src="images/BerserkerBanner.jpg"> -->
+		<div class="video-container">
+			<video class="glove" loop autoplay muted>
+			  <source src="images/BerserkerFeature1.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			<video class="glove" loop autoplay muted>
+			  <source src="images/BerserkerFeature2.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
 
 	<div class="project-page">
 		<div class="sub-nav-wrapper">
@@ -95,8 +104,13 @@
 				        	<hr class="title-line"> 
 				        </div>
 				        <div class="two-third-col"> 
-				        	<div class="half-col"> Interaction Design </div>
-				        	<div class="half-col"> P5.js Development </div>
+				        	<div class="half-col header"> Michael Frampton</div>
+				        	<div class="half-col header"> Wei-Hung Hsieh </div>
+				        	<div class="half-col"> Interaction Design  </div>
+				        	<div class="half-col"> Artwork</div>
+				        	<div class="half-col"> P5.js Development</div>
+				        	<div class="half-col"> 3D modeling</div>
+				        	<div class="half-col"> Arduino Circuitry & Sensors </div>
 				        	<div class="half-col"> Arduino Circuitry & Sensors </div>
 				        	<table> </table>
 				        </div>
@@ -140,7 +154,7 @@
 			    </div>
 			    <div class="fullscreen glove">
 		        	<div class="statement glove wrap">
-		        		From our research we learned that our glove controller needs to be intuitive, exciting, and self-contained.
+		        		From our research we learned that our glove controller needed to be intuitive, self-contained, and responsive.
 		        	</div>
 		        </div>
 		    </div>
@@ -152,7 +166,7 @@
 				        	<hr class="title-line"> 
 				        </div>
 				        <div class="two-third-col"> 
-				        	<p class="description"> I made this this and this
+				        	<p class="description"> The 2D game was coded in p5.js. All sensor data was parsed in the Arduino terminal and sent to the game code using a third-party p5.js library.
 				        	</p>
 				        	
 							
@@ -165,7 +179,7 @@
 				        </div>
 				        <div class="two-third-col"> 
 				        	<p class="description">
-				        		An Arduino board is used as the core of the controller. We tried various sensors including accelerometer, gyroscope, and proximity sensor, but eventually found the flex and light sensors to give us the <span class="bolder">highest returns with the lowest implementation difficulty</span>. A basic vibration motor is used in the palm of the glove to provide haptic feedback.
+				        		An Arduino board is used as the core of the controller. We tried various sensors including accelerometer, gyroscope, and proximity sensor, but eventually found the flex and light sensors to give us the <span class="bolder">highest returns with the lowest implementation difficulty</span>. A basic vibration motor is used in the palm of the glove to provide haptic feedback. We printed a chassis to <span class="bolder">contain the entire system </span>on the arm and wrist.
 				        	</p>
 				        </div>
 				        <img  class="full-width-img" src="images/hardware.png">
@@ -174,7 +188,7 @@
 				</div>
 		        <div class="fullscreen glove">
 		        	<div class="statement glove wrap">
-		        		Talk about roadblock lack of (time, resources), we overcame it and made due with basic senors 
+		        		Our biggest roadblock was the complexity of the sensors. We decided to go back to basic sensors and limit our total number of gestures. In the end, we believe this change helped focus user feedback. 
 		        	</div>
 		        </div>
 		    </div>
@@ -183,16 +197,12 @@
 		    	<div class="wrap">
 					<div class="col-container">
 				        <div class="one-third-col"> 
-				        	<p class="title"> Features </p>
+				        	<p class="title"> Gestures </p>
 				        	<hr class="title-line"> 
 				        </div>
 				        <div class="two-third-col"> 
 
-				        	<p class="sub-title"> Make 3 image for features</p>
-				        	<p class="description"> 
-				        		put 3 gestures (open, close, cover) with the 3 images <br>
-				        		Also, somehow need to put a picture of the game in here.
-				        	</p>
+				        	
 				        	
 				        </div>
 				        
@@ -207,38 +217,47 @@
 				        	<hr class="title-line"> 
 				        </div>
 				        <div class="two-third-col"> 
-				        	<p class="sub-title"> We tested our prototype at a design showcase hosted in the University of Washington CoMotion Makerspace. This allowed us to rapidly test the design with dozens of users and view many first impressions.  </p>
+				        	<p class="sub-title"> Mass Rapid Testing  </p>
 				        	<p class="description">
-
+				        		We tested our prototype at a <span class="bolder">design showcase </span> hosted in the University of Washington CoMotion Makerspace. This allowed us to rapidly test the design with dozens of users and view <span class="bolder">many first impressions. </span> 
 				        	</p>
 				        	<p class="sub-title"> Feedback</p>
 				        	<p class="description">
-
+				        		The majority of the users commented on the use of <span class="bolder">haptic feedback</span>. Users said the glove-feedback made the glove <span class="bolder">feel real and immersive.</span> Many expressed a desire for increased feedback, both haptic and in other forms such as lights. Our haptic system was at times inconsistent or delayed, but this was due to the fidelity of the prototype, and would be easily corrected in future iterations.
 				        	</p>
 				        </div>
 				    </div>
-				    <img class="full-width-img" src="images/glove_testing.png">
+				    <img class="full-width-img" src="images/glove_in_testing.png">
 				</div>
 				 <div class="fullscreen glove">
 		        	<div class="wrap statement glove xlarge">
 		        		<!-- <img  class="full-width-img" src="images/hi_fi_good_aim.png"> -->
-		        		<p> Haptic feedback is king </p>
+		        		<p> Users expressed that haptic feedback was the key immersive quality of the glove. </p>
 		        	</div>
 		        </div>
 		        <div class="wrap">
 			        <div class="col-container">
 				        <div class="one-third-col"> 
-				        	<p class="title"> Looking Forward </p>
+				        	<p class="title"> Reflection </p>
 				        	<hr class="title-line"> 
 				        </div>
 				        <div class="two-third-col"> 
-				        	<p class="sub-title"> Separate Glove and Arduino</p>
-				        	<p class="description">
+				        		<p class="sub-title"> Self-Contained</p>
+				        		<p class="description ">
+				        			The 3D-printed chassis helped the glove feel standalone and self-contained, but we could have easily saudered much longer wires and <span class="bolder">kept the Arduino board separate </span>from the glove. 
+				        		</p>
+				        		<p class="sub-title"> Intuitive </p>
+				        		<p class="description ">
+				        			Our two gestures were simple enough for users to easily pick up on, but we worry about <span class="bolder">difficulties with scale </span>as we look to create a more rich game with more interactions.
+				        		</p>
+				        		<p class="sub-title">  Responsive </p>
+				        		<p class="description ">
+				        			The responsive feedback was the most successful aspect of our design, and we want to <span class="bolder">explore more motors and patterns </span> in the future.
+				        		</p>
 
-				        	</p>
 				        	<p class="sub-title"> Keep It Simple </p>
 				        	<p class="description">
-				        		what do i need to test and how can i create that.
+				        		Our original plans for the glove were over ambitious, and it took a while beating our heads against the wall before we decided to scale back. We learned first hand to make the prototyping process iterative: <span class="bolder">focus on a single aspect of the design, then build and test that aspect alone</span>. 
 				        	</p>
 				        		
 				        	</p>
@@ -260,8 +279,8 @@
 					<a href="index.html"> HOME </a>
 					<span class="vertical_bar"> | </span>
 					<a href="goodaim.html"> GOOD AIM </a>
-					<span class="vertical_bar"> | </span>
-					<a href="aura.html"> AURA </a>
+					<!-- <span class="vertical_bar"> | </span>
+					<a href="aura.html"> AURA </a> -->
 					<span class="vertical_bar"> | </span>
 					<a href="glove.html"> BERSERKER GLOVE </a>				
 				</div>

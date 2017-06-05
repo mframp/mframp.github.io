@@ -55,8 +55,16 @@
 // http://stackoverflow.com/questions/9979827/change-active-menu-item-on-page-scroll
 // Cache selectors
 $(document).ready(function() {
+  var homePageFlag = false;
+  if($("#homepage-flag").length > 0) {
+      var stickyMenu = $("#NavBar")
+      homePageFlag = true;
+  }
+  else {
+    var stickyMenu = $("#SubNav")
+  }
   var lastId,
-      topMenu = (window.location.href.indexOf("index.html") > -1 || window.location.href.indexOf("") > -1) ? $("#NavBar") : $('#SubNav'),
+      topMenu = stickyMenu,
       topMenuHeight = topMenu.outerHeight(),
 
       // All list items
@@ -126,7 +134,7 @@ $(document).ready(function() {
     }
      
 // Projects page sub-nav
-    if (window.location.href.indexOf("index.html") <= -1 && window.location.href.indexOf("") <= -1 ) {
+    if (!homePageFlag) {
         if ($(window).scrollTop() > $('#SubNav').offset().top) {
           $('#SubNav').addClass('navbar-fixed-top');
         }
