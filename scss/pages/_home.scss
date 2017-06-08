@@ -1,4 +1,4 @@
-$landing-height: 660px;//660px;
+$landing-height: 605px;//660px;
 
 .landing-section {
 	background-color: transparent;//#EAEAEA;//777;
@@ -18,7 +18,7 @@ $landing-height: 660px;//660px;
 	    font-weight: 400;
 	    // float: right;
 	    margin: 0 auto;
-	    padding-top: 250px;
+	    padding-top: 220px;
 	    line-height: 1.6;
 
 	    .bolder {
@@ -71,7 +71,7 @@ $landing-height: 660px;//660px;
 		width: 10%;
 		// border-top: 4px solid #eee;
 		margin:  0 auto;
-		margin-top: 40px;
+		// margin-top: 40px;
 
 	}
 }
@@ -103,6 +103,25 @@ $landing-height: 660px;//660px;
 		box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); //0 2px 6px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
   		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
+  		&.disabled {
+  			box-shadow: none;
+  			background-color: #f0f0f0;
+
+  			&:hover {
+  				box-shadow: none;
+  				// cursor: not-allowed;
+  			}
+  			&:active {
+  				background-color: #eee;
+  			}
+  			.project-content {
+  				.title-container {
+  					.project-title, .project-subtitle {
+		  				color: silver;
+		  			}
+		  		}
+			}  			
+  		}
 		&:hover {
 			  box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 4px 8px rgba(0,0,0,0.22);
 		}
@@ -265,6 +284,9 @@ $landing-height: 660px;//660px;
 			margin-right: auto;
 	    	display: block;	
 		}
+		.circular {
+			border-radius: 50%;
+		}
 
 	}
 
@@ -305,7 +327,7 @@ $landing-height: 660px;//660px;
 			height: 400px;	
 			display: inline;
 			img {
-				height: 250px;
+				height: 300px;
 				margin: 0 auto;
 				display: inline;
 			}
@@ -313,10 +335,10 @@ $landing-height: 660px;//660px;
 		}		
 
 		div.about-text {
-			padding: 100px 100px;
+			padding: 100px 50px 100px 70px;
 			
 			display: inline-block;
-			width: 70%;
+			width: 60%;
 			text-align: left;
 			height: 400px;
 			
@@ -343,7 +365,7 @@ $landing-height: 660px;//660px;
   width: 100%;
   height: 400px;//$landing-height;
   position: absolute;
-  top: 40vh;
+  top: 30vh;//40vh;
   // top: 320px;
   // left: 5px;
   z-index: -1;

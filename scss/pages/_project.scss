@@ -197,6 +197,44 @@ $landing-color: #da6139;
 			.full-width-img {
 				margin: 30px 0px;
 			}
+
+			.img-container {
+				width: 100%;
+				display: inline-block;
+				margin: 0 auto;
+				text-align: center;
+				padding: 40px 0px;
+
+				&.one {
+					img {
+						width: 60%;
+						margin: 0 auto;
+					}
+				}
+				&.two {
+					img, video {
+						width: 45%;
+						padding: 20px;
+						height: auto;
+						margin: auto;
+						display: inherit;
+					}
+				}
+				&.three {
+					img {
+						width: 30%;
+						padding: 10px;
+					}
+				}
+				&.four {
+					img {
+						width: 23%;
+						padding: 10px;
+					}
+				}
+					
+			}
+			
 		}
 
 		.col-container {
@@ -249,9 +287,13 @@ $landing-color: #da6139;
 				font-size: 16px;
 				padding-bottom: 30px;
 				font-family: 'Source Sans Pro', sans-serif;
+				&.inner {
+					padding-bottom: 10px;
+				}
 				.bolder {
 					font-weight: 600;
 				}
+
 			}
 			.highlight {
 				padding: 5px 0px 10px 0px;
@@ -268,6 +310,8 @@ $landing-color: #da6139;
 			}
 		}
 
+
+
 		.half-col {
 		    width: 40%;
 		    display: inline-block;
@@ -275,6 +319,15 @@ $landing-color: #da6139;
 		    padding: 12px 0px;
 		    border-top: 1px solid #e1e1e1;
 		    margin-right: 20px;
+		    &.header {
+		    	padding: 0;
+		    	border-top: 0px;
+		    	text-transform: uppercase;
+				font-weight: 700;
+				font-size: 14px;
+				margin-bottom: 12px;
+
+		    }
 		}
 
 
@@ -333,12 +386,25 @@ $landing-color: #da6139;
 		margin: auto;
 		display: block;
 		margin: 40px auto;
+
 	}
 	.small-width-img {
 		width: 40%;
 		margin: auto;
 		display: block;
 		margin-top: 40px;
+	}
+	.landing-image-container {
+		background-color: #eee;
+		text-align: center;
+
+		img {
+			width: 60%;
+			margin: auto;
+			display: block;
+			padding: 40px 0px;
+		}
+
 	}
 
 	.footer-content {
@@ -347,12 +413,21 @@ $landing-color: #da6139;
 
 	.video-container {
 		background-color: #eee;
+		text-align: center;
 	}
+
 	video {
 		height: 500px;
 		margin: 0 auto;
 		padding: 60px 0px;
 		display: block;
+
+		&.glove {
+			height: 400px;
+			width: 45%;
+			padding-right: 2%;
+			display: inline-block;			
+		}
 	}
 
 }

@@ -607,6 +607,27 @@ canvas {
     padding-bottom: 20px; }
   .project-page .section .wrap .full-width-img {
     margin: 30px 0px; }
+  .project-page .section .wrap .img-container {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px; }
+    .project-page .section .wrap .img-container.one img {
+      width: 60%;
+      margin: 0 auto; }
+    .project-page .section .wrap .img-container.two img, .project-page .section .wrap .img-container.two video {
+      width: 45%;
+      padding: 20px;
+      height: auto;
+      margin: auto;
+      display: inherit; }
+    .project-page .section .wrap .img-container.three img {
+      width: 30%;
+      padding: 10px; }
+    .project-page .section .wrap .img-container.four img {
+      width: 23%;
+      padding: 10px; }
   .project-page .section .col-container {
     padding-top: 40px; }
     .project-page .section .col-container .img-container {
@@ -656,6 +677,9 @@ canvas {
       color: #da6139; }
     .project-page .section .two-third-col p {
       margin: 0; }
+    .project-page .section .two-third-col video {
+      width: 80%;
+      margin-bottom: 80px; }
   .project-page .section .half-col {
     width: 40%;
     display: inline-block;
@@ -678,7 +702,8 @@ canvas {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 2.0; }
+    line-height: 2.0;
+    flex-direction: column; }
     .project-page .section .statement.glove {
       background-color: #272459; }
     .project-page .section .statement.goodaim {
@@ -713,21 +738,29 @@ canvas {
   margin: auto;
   display: block;
   margin-top: 40px; }
+.project-page .landing-image-container {
+  background-color: #eee;
+  text-align: center; }
+  .project-page .landing-image-container img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding: 40px 0px; }
 .project-page .footer-content {
   background-color: #eaeaea; }
 .project-page .video-container {
   background-color: #eee;
   text-align: center; }
-.project-page video {
-  height: 500px;
-  margin: 0 auto;
-  padding: 60px 0px;
-  display: block; }
-  .project-page video.glove {
-    height: 400px;
-    width: 45%;
-    padding-right: 2%;
-    display: inline-block; }
+  .project-page .video-container video {
+    height: 500px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: block; }
+    .project-page .video-container video.glove {
+      height: 400px;
+      width: 45%;
+      padding-right: 2%;
+      display: inline-block; }
 
 .fullscreen {
   width: 100%;
