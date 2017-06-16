@@ -13,7 +13,8 @@ body {
   padding: 0px;
   overflow-x: hidden;
   overflow-y: scroll;
-  /* has to be scroll, not auto */ }
+  /* has to be scroll, not auto */
+  background-color: white; }
 
 .wrap {
   width: 100%;
@@ -122,7 +123,7 @@ nav {
   .nav-up {
     top: -142; } }
 footer .footer-content {
-  padding: 60px 0 60px 0;
+  padding: 40px 0;
   text-align: center;
   margin: 0 auto;
   color: #3a302e;
@@ -133,10 +134,17 @@ footer .footer-content {
 footer .footer-contacts {
   padding-bottom: 20px; }
   footer .footer-contacts a {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600; }
 footer .vertical_bar {
-  padding: 0px 15px; }
+  padding: 0px 4px; }
+@media (min-width: 768px) {
+  footer .footer-content {
+    padding: 60px 0px; }
+  footer .footer-contacts a {
+    font-size: 15px; }
+  footer .vertical_bar {
+    padding: 0px 15px; } }
 
 .landing-section {
   background-color: transparent;
@@ -149,15 +157,13 @@ footer .vertical_bar {
   background-position: left bottom; }
   .landing-section .title {
     color: #3a302e;
-    font-size: 32px;
-    font-weight: 400;
     margin: 0 auto;
     padding-top: 220px;
-    line-height: 1.6; }
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 24px; }
     .landing-section .title .bolder {
       font-weight: 700; }
-  .landing-section p {
-    color: slategray; }
   .landing-section img {
     display: none; }
   @media (min-width: 768px) {
@@ -168,7 +174,8 @@ footer .vertical_bar {
       right: 100px;
       top: 180; }
     .landing-section .title {
-      width: 60%; } }
+      width: 60%;
+      font-size: 32px; } }
   @media (min-width: 1024px) {
     .landing-section {
       color: white; } }
@@ -522,21 +529,21 @@ canvas {
   .project-page .project-landing-section img {
     display: none; }
   .project-page .project-landing-section .project-intro-container {
-    font-size: 18px;
+    font-size: 14px;
     max-width: 960px;
-    padding: 12% 15%;
+    padding: 12% 2%;
     margin: auto; }
     .project-page .project-landing-section .project-intro-container .intro-title, .project-page .project-landing-section .project-intro-container .intro-last {
       font-weight: 600;
-      font-size: 14px;
+      font-size: 12px;
       text-transform: uppercase; }
     .project-page .project-landing-section .project-intro-container .intro-description {
-      font-size: 24px;
       line-height: 2; }
     .project-page .project-landing-section .project-intro-container .intro-description-big {
-      font-size: 48px;
+      font-size: 24px;
       font-weight: 600;
-      margin: 2% 0px; }
+      margin: 10% 0px;
+      line-height: 2; }
     .project-page .project-landing-section .project-intro-container .intro-roles {
       font-style: italic;
       clear: left; }
@@ -550,14 +557,28 @@ canvas {
       margin-top: 5%;
       margin-bottom: 7%; }
   @media (min-width: 768px) {
-    .project-page .project-landing-section img {
-      display: block;
-      position: absolute;
-      height: 450px;
-      right: 100px;
-      top: 180; }
-    .project-page .project-landing-section .title {
-      width: 66%; } }
+    .project-page .project-landing-section .project-intro-container {
+      padding: 12% 15%; }
+      .project-page .project-landing-section .project-intro-container img {
+        display: block;
+        position: absolute;
+        height: 450px;
+        right: 100px;
+        top: 180; }
+      .project-page .project-landing-section .project-intro-container .title {
+        width: 66%; }
+      .project-page .project-landing-section .project-intro-container .intro-title, .project-page .project-landing-section .project-intro-container .intro-last {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase; }
+      .project-page .project-landing-section .project-intro-container .intro-description {
+        font-size: 24px;
+        line-height: 2; }
+      .project-page .project-landing-section .project-intro-container .intro-description-big {
+        font-size: 48px;
+        font-weight: 600;
+        margin: 2% 0px;
+        line-height: inherit; } }
   @media (min-width: 1024px) {
     .project-page .project-landing-section {
       color: white; } }
@@ -572,7 +593,8 @@ canvas {
     list-style: none;
     overflow: hidden;
     margin: 0 auto;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0; }
     .project-page .sub-nav ul li {
       display: inline-block;
       color: #25382f; }
@@ -583,23 +605,31 @@ canvas {
       .project-page .sub-nav ul li.aura.active {
         color: #FEA200; }
       .project-page .sub-nav ul li a {
-        margin: 5px 20px 5px 20px;
-        padding: 15px 0 15px 0;
+        margin: 2px 4px;
+        padding: 8px 0px;
         display: block;
         color: inherit;
         transition: .3s;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 600;
         text-transform: uppercase; }
         .project-page .sub-nav ul li a:hover {
           color: black; }
+@media (min-width: 768px) {
+  .project-page .sub-nav ul li a {
+    margin: 5px 20px;
+    padding: 15px 0px;
+    font-size: 14px; } }
 .project-page .logo-section .img-container {
   margin: 0 auto;
-  width: 360px;
+  width: 65%;
   margin-top: 20px; }
   .project-page .logo-section .img-container #BerserkerLogo {
     width: 100%;
     margin: 20px 0px 40px 0px; }
+@media (min-width: 768px) {
+  .project-page .logo-section .img-container {
+    width: 360px; } }
 .project-page .section {
   min-height: 200px;
   color: black; }
@@ -635,9 +665,10 @@ canvas {
       width: 360px;
       margin-top: 20px; }
   .project-page .section .one-third-col {
-    width: 33%;
+    width: 90%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    margin-bottom: 15px; }
     .project-page .section .one-third-col .title {
       font-size: 24px;
       font-weight: 600;
@@ -652,17 +683,17 @@ canvas {
     .project-page .section .one-third-col p {
       margin: 0; }
   .project-page .section .two-third-col {
-    width: 66%;
+    width: 100%;
     display: inline-block;
     vertical-align: top; }
     .project-page .section .two-third-col .sub-title {
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 12px;
       margin: 0px 0px 5px 0px; }
     .project-page .section .two-third-col .description {
-      line-height: 2;
-      font-size: 16px;
+      line-height: 1.8;
+      font-size: 14px;
       padding-bottom: 30px;
       font-family: 'Source Sans Pro', sans-serif; }
       .project-page .section .two-third-col .description.inner {
@@ -680,6 +711,17 @@ canvas {
     .project-page .section .two-third-col video {
       width: 80%;
       margin-bottom: 80px; }
+  @media (min-width: 768px) {
+    .project-page .section .one-third-col {
+      width: 33%;
+      margin-bottom: 0px; }
+    .project-page .section .two-third-col {
+      width: 66%; }
+      .project-page .section .two-third-col .sub-title {
+        font-size: 14px; }
+      .project-page .section .two-third-col .description {
+        font-size: 16px;
+        line-height: 2; } }
   .project-page .section .half-col {
     width: 40%;
     display: inline-block;
@@ -698,7 +740,7 @@ canvas {
     min-height: 350px;
     padding: 40px 11%;
     font-style: italic;
-    font-size: 23px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -710,6 +752,9 @@ canvas {
       background-color: #DF6026; }
     .project-page .section .statement.aura {
       background-color: #FEA200; }
+  @media (min-width: 768px) {
+    .project-page .section .statement {
+      font-size: 23px; } }
   .project-page .section .statement.xlarge {
     padding: 80px 30px; }
 .project-page .navbar-fixed-top {
@@ -752,7 +797,8 @@ canvas {
   background-color: #eee;
   text-align: center; }
   .project-page .video-container video {
-    height: 500px;
+    height: auto;
+    width: 100%;
     margin: 0 auto;
     padding: 60px 0px;
     display: block; }
@@ -761,6 +807,9 @@ canvas {
       width: 45%;
       padding-right: 2%;
       display: inline-block; }
+  @media (min-width: 768px) {
+    .project-page .video-container video {
+      height: 500px; } }
 
 .fullscreen {
   width: 100%;
